@@ -1,3 +1,11 @@
+// english as a second language only
+module.exports = {
+	extends: "./index.js",
+	env: {
+		node: true
+	}
+};
+break
 module.exports = {
 	rules: {
 		"no-negated-in-lhs": "error",
